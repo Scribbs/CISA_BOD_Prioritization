@@ -1,0 +1,8 @@
+streamlit>=1.28
+pandas
+plotly
+sqlalchemy
+passlib
+bcrypt
+cryptography
+requests
