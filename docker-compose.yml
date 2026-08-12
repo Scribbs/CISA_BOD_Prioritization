@@ -1,0 +1,12 @@
+services:
+  bod-priority-agent:
+    build: .
+    container_name: bod-priority-agent
+    ports:
+      - "8501:8501"
+    volumes:
+      - bod_priority_data:/app/secure_data
+    restart: unless-stopped
+
+volumes:
+  bod_priority_data:
